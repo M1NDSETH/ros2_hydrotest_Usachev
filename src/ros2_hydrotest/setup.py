@@ -23,7 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': ['talker = py_pubsub.publisher_member_function:main',
+        'console_scripts': ['talker = ros2_hydrotest.publisher:main',
+                            'listener = ros2_hydrotest.subscriber:main',
         ],
     },
 )
