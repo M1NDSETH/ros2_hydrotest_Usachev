@@ -23,7 +23,7 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
+        'console_scripts': ['talker = py_pubsub.publisher_member_function:main',
         ],
     },
 )
