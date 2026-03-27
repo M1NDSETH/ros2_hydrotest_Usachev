@@ -13,7 +13,7 @@
   <test_depend>python3-pytest</test_depend>
   <exec_depend>ros2_hydrotest_publisher</exec_depend>
   <exec_depend>ros2_hydrotest_service</exec_depend>
-  <exec_depend>extra_interfaces</exec_depend>
+  <exec_depend>ros2_hydrotest_interfaces</exec_depend>
   <export>
     <build_type>ament_python</build_type>
   </export>

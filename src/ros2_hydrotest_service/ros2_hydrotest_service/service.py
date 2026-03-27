@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from extra_interfaces.srv import AddString
+from ros2_hydrotest_interfaces.srv import AddString
 
 import rclpy
 from rclpy.node import Node
