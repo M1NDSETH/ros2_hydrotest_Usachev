@@ -4,9 +4,9 @@ This project is introducing assignment into *ROS2*, version *Humble*. 2 types of
 
 ## PACKAGES
 
-1) *extra_interfaces* - contain custom interface for *client*<->*service* data exchange in *.srv* file and others package's files.
+1) *ros2_hydrotest_interfaces* - contain custom interface for *client*<->*service* data exchange in *.srv* file and others package's files.
 
-2) *ros2_hydrotest* - contain *publisher* and *subscriber* nodes and other package's files.
+2) *ros2_hydrotest_publisher* - contain *publisher* and *subscriber* nodes and other package's files.
     *Publisher* publishes info in format "Message N _", where _ is message number in order, into topic *"hydrotest"*. *Subscriber* subscribes on this topic and receives messages from *publisher*.
 
 3) *ros2_hydrotest_launch* - this package launches full project.
