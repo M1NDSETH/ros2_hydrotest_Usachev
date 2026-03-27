@@ -17,7 +17,7 @@ def generate_launch_description():
         ),
 
         Node(
-            package='ros2_hydrotest',
+            package='ros2_hydrotest_publisher',
             executable='talker',
             name='publisher',
             output='screen',
@@ -25,7 +25,7 @@ def generate_launch_description():
         ),
 
         Node(
-            package='ros2_hydrotest',
+            package='ros2_hydrotest_publisher',
             executable='listener',
             name='subscriber',
             output='screen',

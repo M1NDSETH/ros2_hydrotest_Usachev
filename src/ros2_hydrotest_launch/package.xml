@@ -11,7 +11,7 @@
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
-  <exec_depend>ros2_hydrotest</exec_depend>
+  <exec_depend>ros2_hydrotest_publisher</exec_depend>
   <exec_depend>ros2_hydrotest_service</exec_depend>
   <exec_depend>extra_interfaces</exec_depend>
   <export>

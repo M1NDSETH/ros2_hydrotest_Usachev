@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'ros2_hydrotest'
+package_name = 'ros2_hydrotest_publisher'
 
 setup(
     name=package_name,
@@ -23,8 +23,8 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': ['talker = ros2_hydrotest.publisher:main',
-                            'listener = ros2_hydrotest.subscriber:main',
+        'console_scripts': ['talker = ros2_hydrotest_publisher.publisher:main',
+                            'listener = ros2_hydrotest_publisher.subscriber:main',
         ],
     },
 )
